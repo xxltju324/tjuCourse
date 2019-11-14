@@ -1,0 +1,22 @@
+一.作业内容：
+	matlab写一个绘图函数 img=generateFigure(imgW,imgH),
+	产生一幅彩色图像，图像中红色显示[0,2*pi]的正弦波，绿色显示[0,2*pi]的余弦波，蓝色显示[0,2*pi]的y=x^2的图像
+二.实现过程细节
+1. 用matlab中内置函数plot绘图，
+	先指定三个函数的定义域和函数表达式
+	x1=linspace(0,2*pi);
+	y1=sin(x1);
+	x2=linspace(0,2*pi);
+	y2=cos(x2);
+	x3=linspace(0,2*pi);
+	y3=(x3).^2;
+	在调用plot函数，并为每个函数指定绘图颜色参数，参数用单引号包围，字符为对应颜色英文名的简写
+	plot(x1,y1,'r',x2,y2,'g',x3,y3,'b');
+2. 再用fig设置图窗属性，接收imgW与imgH的值作为生成图像的分辨率
+	fig = gcf;%返回当前图窗的句柄。如果图窗不存在，则 gcf 将创建一个图窗并返回其句柄。可以使用图窗句柄查询和修改图窗的属性。
+	fig.PaperUnits = 'inches';
+	fig.PaperPosition = [0 0 imgW/96 imgH/96]; %1 inch对应96个像素点；
+3. 再将图窗中的图片保存在当前文件目录下
+	print('test1','-dpng','-r0');%要生成与屏幕上大小（以像素为单位）匹配的输出，请在使用 print 函数时包含 '-r0' 分辨率选项
+	最后绑定图像到变量img中
+	img=imread("test1.png",'png');
