@@ -1,0 +1,162 @@
+TestBubbleSort
+
+
+======================================== Generating Original Test Results ========================================
+{test1=pass}
+
+
+======================================== Executing Mutants ========================================
+test report: {test1=}
+mutant report: {}
+[Notice] There are no mutants to apply
+TestBubbleSort
+
+
+======================================== Generating Original Test Results ========================================
+{test1=pass}
+
+
+======================================== Executing Mutants ========================================
+test report: {test1=}
+mutant report: {}
+[Notice] There are no mutants to apply
+
+
+======================================== Executing Mutants ========================================
+  AOIS_1{test1=test1: 43; expected:<[1, 2, 2, [5, 6]]> but was:<[1, 2, 2, [6, 5]]>}
+  AOIS_10{test1=test1: 43; -1}
+  AOIS_11{test1=test1: 43; expected:<[1, 2, [2, 5, 6]]> but was:<[1, 2, [6, 2, 5]]>}
+  AOIS_12{test1=test1: 43; -1}
+  AOIS_17{test1=test1: 43; expected:<[1, 2, [2, 5, 6]]> but was:<[1, 2, [6, 2, 5]]>}
+  AOIS_18{test1=test1: 43; 5}
+  AOIS_19{test1=test1: 43; expected:<[1, 2, [2, 5, 6]]> but was:<[1, 2, [6, 2, 5]]>}
+  AOIS_2{test1=test1: 43; 5}
+  AOIS_20{test1=test1: 43; 5}
+  AOIS_21{test1=test1: 43; expected:<[1, 2, [2, 5, 6]]> but was:<[1, 2, [6, 2, 5]]>}
+  AOIS_22{test1=test1: 43; -1}
+  AOIS_23{test1=test1: 43; expected:<[1, [2, 2, 5, 6]]> but was:<[1, [6, 2, 2, 5]]>}
+  AOIS_24{test1=test1: 43; -1}
+  AOIS_25{test1=test1: 43; expected:<[1, [2, 2, 5, 6]]> but was:<[1, [6, 2, 2, 5]]>}
+  AOIS_26 time_out: more than 3000 milliseconds
+  AOIS_27{test1=test1: 43; expected:<[1, [2, 2, 5, 6]]> but was:<[1, [6, 2, 2, 5]]>}
+  AOIS_28{test1=test1: 43; -1}
+  AOIS_29{test1=test1: 43; 5}
+  AOIS_3{test1=test1: 43; expected:<[1, 2, 2, [5, 6]]> but was:<[1, 2, 2, [6, 5]]>}
+  AOIS_30 time_out: more than 3000 milliseconds
+  AOIS_31{test1=test1: 43; 5}
+  AOIS_32 time_out: more than 3000 milliseconds
+  AOIS_33{test1=test1: 43; 5}
+  AOIS_34 time_out: more than 3000 milliseconds
+  AOIS_35{test1=test1: 43; expected:<[1, 2, 2, 5, [6]]> but was:<[1, 2, 2, 5, [9]]>}
+  AOIS_36{test1=test1: 43; expected:<[1, 2, 2, [5, 6]]> but was:<[1, 2, 2, [4, 5]]>}
+  AOIS_37{test1=pass}
+  AOIS_38{test1=pass}
+  AOIS_4{test1=test1: 43; 5}
+  AOIS_9{test1=test1: 43; expected:<[1, 2, [2, 5, 6]]> but was:<[1, 2, [6, 2, 5]]>}
+  AOIU_1 time_out: more than 3000 milliseconds
+  AOIU_2 time_out: more than 3000 milliseconds
+  AOIU_3{test1=test1: 43; 5}
+  AOIU_4{test1=test1: 43; expected:<[1, [2, 2, 5, 6]]> but was:<[1, [6, 2, 2, 5]]>}
+  AOIU_5{test1=test1: 43; expected:<[1, [2, 2, 5, 6]]> but was:<[1, [6, 2, 2, 5]]>}
+  AOIU_6{test1=test1: 43; -1}
+  AOIU_7{test1=test1: 43; -1}
+  AOIU_8{test1=test1: 43; -1}
+  AOIU_9{test1=test1: 43; expected:<[[1, 2, 2, 5, 6]]> but was:<[[-6, -2, 1, 2, 5]]>}
+  AORB_1{test1=pass}
+  AORB_10{test1=test1: 43; 5}
+  AORB_11{test1=test1: 43; expected:<[1, [2, 2, 5, 6]]> but was:<[1, [6, 2, 2, 5]]>}
+  AORB_12{test1=test1: 43; 5}
+  AORB_13{test1=test1: 43; expected:<[1, [2, 2, 5, 6]]> but was:<[1, [6, 2, 2, 5]]>}
+  AORB_14{test1=test1: 43; expected:<[1, [2, 2, 5, 6]]> but was:<[1, [6, 2, 2, 5]]>}
+  AORB_15{test1=test1: 43; expected:<[1, [2, 2, 5], 6]> but was:<[1, [5, 2, 2], 6]>}
+  AORB_16{test1=test1: 43; -1}
+  AORB_17{test1=test1: 43; expected:<[1, [2, 2, 5], 6]> but was:<[1, [6, 6, 6], 6]>}
+  AORB_18{test1=test1: 43; expected:<[1, [2, 2, 5], 6]> but was:<[1, [6, 6, 6], 6]>}
+  AORB_19{test1=test1: 43; expected:<[1, [2, 2, 5], 6]> but was:<[1, [1, 1, 1], 6]>}
+  AORB_2{test1=pass}
+  AORB_20{test1=test1: 43; expected:<[1, [2, 2, 5], 6]> but was:<[1, [1, 1, 1], 6]>}
+  AORB_21{test1=test1: 43; expected:<[1, [2, 2, 5, 6]]> but was:<[1, [6, 2, 2, 5]]>}
+  AORB_22{test1=test1: 43; expected:<[1, [2, 2, 5, 6]]> but was:<[1, [6, 2, 2, 5]]>}
+  AORB_23{test1=test1: 43; expected:<[[1, 2, 2, 5, 6]]> but was:<[[6, 2, 2, 2, 5]]>}
+  AORB_24{test1=test1: 43; -1}
+  AORB_3{test1=test1: 43; expected:<[1, [2, 2, 5, 6]]> but was:<[1, [6, 2, 2, 5]]>}
+  AORB_4{test1=pass}
+  AORB_5{test1=test1: 43; 5}
+  AORB_6{test1=test1: 43; / by zero}
+  AORB_7{test1=test1: 43; / by zero}
+  AORB_8{test1=test1: 43; 5}
+  AORB_9{test1=test1: 43; 5}
+  AORS_1{test1=test1: 43; 5}
+  AORS_2{test1=test1: 43; -1}
+  CDL_1{test1=pass}
+  CDL_2{test1=test1: 43; 5}
+  CDL_3{test1=test1: 43; expected:<[1, [2, 2, 5, 6]]> but was:<[1, [6, 2, 2, 5]]>}
+  CDL_4{test1=test1: 43; expected:<[1, [2, 2, 5], 6]> but was:<[1, [6, 6, 6], 6]>}
+  CDL_5{test1=test1: 43; expected:<[1, [2, 2, 5, 6]]> but was:<[1, [6, 2, 2, 5]]>}
+  COI_1{test1=test1: 43; expected:<[1, [2, 2, 5, 6]]> but was:<[1, [6, 2, 2, 5]]>}
+  COI_2{test1=test1: 43; expected:<[1, [2, 2, 5, 6]]> but was:<[1, [6, 2, 2, 5]]>}
+  COI_3{test1=test1: 43; expected:<[[1, 2, 2, 5, 6]]> but was:<[[6, 5, 2, 2, 1]]>}
+  LOI_1 time_out: more than 3000 milliseconds
+  LOI_10{test1=test1: 43; -2}
+  LOI_11{test1=test1: 43; -2}
+  LOI_12{test1=test1: 43; -1}
+  LOI_13{test1=test1: 43; -1}
+  LOI_14{test1=test1: 43; expected:<[[1, 2, 2, 5, 6]]> but was:<[[-7, -3, 1, 2, 5]]>}
+  LOI_2{test1=test1: 43; expected:<[1, [2, 2, 5, 6]]> but was:<[1, [6, 2, 2, 5]]>}
+  LOI_4{test1=test1: 43; 5}
+  LOI_5{test1=test1: 43; expected:<[1, [2, 2, 5, 6]]> but was:<[1, [6, 2, 2, 5]]>}
+  LOI_6{test1=test1: 43; 5}
+  LOI_8{test1=test1: 43; -1}
+  LOI_9{test1=test1: 43; -1}
+  ODL_1{test1=pass}
+  ODL_13{test1=test1: 43; expected:<[1, [2, 2, 5, 6]]> but was:<[1, [6, 2, 2, 5]]>}
+  ODL_14{test1=test1: 43; expected:<[1, [2, 2, 5, 6]]> but was:<[1, [6, 2, 2, 5]]>}
+  ODL_17{test1=test1: 43; expected:<[1, [2, 2, 5], 6]> but was:<[1, [6, 6, 6], 6]>}
+  ODL_18{test1=test1: 43; expected:<[1, [2, 2, 5], 6]> but was:<[1, [6, 6, 6], 6]>}
+  ODL_19{test1=test1: 43; expected:<[1, [2, 2, 5, 6]]> but was:<[1, [6, 2, 2, 5]]>}
+  ODL_2{test1=test1: 45; expected:<[[1, 2, 2], 2, 2, 13]> but was:<[[2, 2, 1], 2, 2, 13]>}
+  ODL_20{test1=test1: 43; expected:<[1, [2, 2, 5, 6]]> but was:<[1, [6, 2, 2, 5]]>}
+  ODL_6{test1=pass}
+  ODL_7{test1=test1: 43; expected:<[1, 2, [2, 5, 6]]> but was:<[1, 2, [6, 2, 5]]>}
+  ODL_8{test1=test1: 43; 5}
+  ODL_9{test1=test1: 43; expected:<[1, [2, 2, 5, 6]]> but was:<[1, [6, 2, 2, 5]]>}
+  ROR_1{test1=test1: 43; expected:<[1, [2, 2, 5, 6]]> but was:<[1, [6, 2, 2, 5]]>}
+  ROR_10{test1=test1: 43; 5}
+  ROR_11{test1=test1: 43; expected:<[1, [2, 2, 5, 6]]> but was:<[1, [6, 2, 2, 5]]>}
+  ROR_12{test1=pass}
+  ROR_13{test1=test1: 43; 5}
+  ROR_15{test1=test1: 43; expected:<[[1, 2, 2, 5, 6]]> but was:<[[6, 5, 2, 2, 1]]>}
+  ROR_16{test1=test1: 43; expected:<[[1, 2, 2, 5, 6]]> but was:<[[6, 5, 2, 2, 1]]>}
+  ROR_17{test1=pass}
+  ROR_18{test1=test1: 43; expected:<[1, [2, 2, 5, 6]]> but was:<[1, [6, 2, 2, 5]]>}
+  ROR_19{test1=test1: 43; expected:<[[1, 2, 2, 5, 6]]> but was:<[[5, 2, 2, 6, 1]]>}
+  ROR_2{test1=test1: 43; expected:<[1, [2, 2, 5, 6]]> but was:<[1, [6, 2, 2, 5]]>}
+  ROR_20{test1=test1: 43; expected:<[[1, 2, 2, 5, 6]]> but was:<[[5, 2, 2, 6, 1]]>}
+  ROR_21{test1=test1: 43; expected:<[1, [2, 2, 5, 6]]> but was:<[1, [6, 2, 2, 5]]>}
+  ROR_3{test1=pass}
+  ROR_4{test1=test1: 43; expected:<[1, [2, 2, 5, 6]]> but was:<[1, [6, 2, 2, 5]]>}
+  ROR_5{test1=pass}
+  ROR_8{test1=test1: 43; expected:<[1, [2, 2, 5, 6]]> but was:<[1, [6, 2, 2, 5]]>}
+  ROR_9{test1=test1: 43; expected:<[1, [2, 2, 5, 6]]> but was:<[1, [6, 2, 2, 5]]>}
+  SDL_1{test1=test1: 43; expected:<[1, [2, 2, 5, 6]]> but was:<[1, [6, 2, 2, 5]]>}
+  SDL_10{test1=test1: 43; expected:<[1, 2, 2, [5, 6]]> but was:<[1, 2, 2, [2, 5]]>}
+  SDL_11{test1=test1: 43; expected:<[[1, 2, 2, 5, 6]]> but was:<[[5, 2, 2, 6, 1]]>}
+  SDL_2{test1=test1: 43; expected:<[1, [2, 2, 5, 6]]> but was:<[1, [6, 2, 2, 5]]>}
+  SDL_4 time_out: more than 3000 milliseconds
+  SDL_5{test1=test1: 43; expected:<[1, [2, 2, 5, 6]]> but was:<[1, [6, 2, 2, 5]]>}
+  SDL_6{test1=test1: 43; 5}
+  SDL_7{test1=pass}
+  SDL_9{test1=test1: 43; expected:<[1, [2, 2, 5], 6]> but was:<[1, [6, 6, 6], 6]>}
+  VDL_10{test1=test1: 43; expected:<[1, [2, 2, 5, 6]]> but was:<[1, [6, 2, 2, 5]]>}
+  VDL_2 time_out: more than 3000 milliseconds
+  VDL_3{test1=pass}
+  VDL_5 time_out: more than 3000 milliseconds
+  VDL_6{test1=test1: 43; expected:<[1, [2, 2, 5, 6]]> but was:<[1, [6, 2, 2, 5]]>}
+  VDL_9{test1=test1: 43; expected:<[1, [2, 2, 5], 6]> but was:<[1, [6, 6, 6], 6]>}
+test report: {test1=AOIS_1, AOIS_10, AOIS_11, AOIS_12, AOIS_17, AOIS_18, AOIS_19, AOIS_2, AOIS_20, AOIS_21, AOIS_22, AOIS_23, AOIS_24, AOIS_25, AOIS_26, AOIS_27, AOIS_28, AOIS_29, AOIS_3, AOIS_30, AOIS_31, AOIS_32, AOIS_33, AOIS_34, AOIS_35, AOIS_36, AOIS_4, AOIS_9, AOIU_1, AOIU_2, AOIU_3, AOIU_4, AOIU_5, AOIU_6, AOIU_7, AOIU_8, AOIU_9, AORB_10, AORB_11, AORB_12, AORB_13, AORB_14, AORB_15, AORB_16, AORB_17, AORB_18, AORB_19, AORB_20, AORB_21, AORB_22, AORB_23, AORB_24, AORB_3, AORB_5, AORB_6, AORB_7, AORB_8, AORB_9, AORS_1, AORS_2, CDL_2, CDL_3, CDL_4, CDL_5, COI_1, COI_2, COI_3, LOI_1, LOI_10, LOI_11, LOI_12, LOI_13, LOI_14, LOI_2, LOI_4, LOI_5, LOI_6, LOI_8, LOI_9, ODL_13, ODL_14, ODL_17, ODL_18, ODL_19, ODL_2, ODL_20, ODL_7, ODL_8, ODL_9, ROR_1, ROR_10, ROR_11, ROR_13, ROR_15, ROR_16, ROR_18, ROR_19, ROR_2, ROR_20, ROR_21, ROR_4, ROR_8, ROR_9, SDL_1, SDL_10, SDL_11, SDL_2, SDL_4, SDL_5, SDL_6, SDL_9, VDL_10, VDL_2, VDL_5, VDL_6, VDL_9}
+mutant report: {VDL_10=test1, COI_3=test1, COI_2=test1, LOI_5=test1, LOI_6=test1, LOI_8=test1, LOI_1=test1, LOI_2=test1, LOI_4=test1, COI_1=test1, CDL_1=, CDL_2=test1, CDL_3=test1, LOI_9=test1, SDL_11=test1, AOIS_38=, VDL_9=test1, AOIS_37=, AOIS_36=test1, AOIS_35=test1, AOIS_34=test1, SDL_10=test1, AOIS_33=test1, AOIS_32=test1, VDL_3=, AOIS_31=test1, VDL_2=test1, AOIS_30=test1, VDL_6=test1, VDL_5=test1, AOIS_29=test1, AOIS_28=test1, AOIS_27=test1, AOIS_26=test1, ROR_21=test1, AOIS_25=test1, ROR_20=test1, AOIS_24=test1, AOIS_23=test1, AOIS_22=test1, AOIU_3=test1, ODL_9=test1, AOIS_21=test1, AOIU_4=test1, ODL_8=test1, AOIS_20=test1, AOIU_1=test1, AOIU_2=test1, ODL_1=, AOIU_9=test1, AORB_9=test1, ODL_2=test1, AOIU_7=test1, AOIU_8=test1, AOIU_5=test1, ODL_7=test1, AOIU_6=test1, ODL_6=, AORB_3=test1, AORB_4=, AORB_1=, AORB_2=, AORB_7=test1, AORB_8=test1, AORB_5=test1, AORB_6=test1, AOIS_19=test1, ROR_2=test1, AOIS_18=test1, ROR_13=test1, ROR_3=, AOIS_17=test1, ROR_16=test1, ROR_4=test1, ROR_15=test1, ROR_5=, ROR_10=test1, ROR_12=, ROR_8=test1, AOIS_12=test1, ROR_11=test1, ROR_9=test1, AOIS_11=test1, AORS_2=test1, AOIS_10=test1, AORS_1=test1, ROR_1=test1, ROR_18=test1, ROR_17=, ROR_19=test1, SDL_5=test1, SDL_4=test1, SDL_7=, SDL_6=test1, AORB_23=test1, SDL_9=test1, AORB_24=test1, AORB_21=test1, AORB_22=test1, SDL_1=test1, SDL_2=test1, AORB_16=test1, AORB_17=test1, AORB_14=test1, AORB_15=test1, AORB_12=test1, AORB_13=test1, AORB_10=test1, AORB_11=test1, AORB_18=test1, AORB_19=test1, CDL_4=test1, CDL_5=test1, ODL_20=test1, AORB_20=test1, ODL_19=test1, AOIS_3=test1, AOIS_4=test1, AOIS_1=test1, AOIS_2=test1, LOI_14=test1, AOIS_9=test1, LOI_10=test1, LOI_11=test1, LOI_12=test1, LOI_13=test1, ODL_14=test1, ODL_13=test1, ODL_18=test1, ODL_17=test1}
+
+
+======================================== Executing Mutants ========================================
+test report: {test1=AOIS_1, AOIS_10, AOIS_11, AOIS_12, AOIS_17, AOIS_18, AOIS_19, AOIS_2, AOIS_20, AOIS_21, AOIS_22, AOIS_23, AOIS_24, AOIS_25, AOIS_26, AOIS_27, AOIS_28, AOIS_29, AOIS_3, AOIS_30, AOIS_31, AOIS_32, AOIS_33, AOIS_34, AOIS_35, AOIS_36, AOIS_4, AOIS_9, AOIU_1, AOIU_2, AOIU_3, AOIU_4, AOIU_5, AOIU_6, AOIU_7, AOIU_8, AOIU_9, AORB_10, AORB_11, AORB_12, AORB_13, AORB_14, AORB_15, AORB_16, AORB_17, AORB_18, AORB_19, AORB_20, AORB_21, AORB_22, AORB_23, AORB_24, AORB_3, AORB_5, AORB_6, AORB_7, AORB_8, AORB_9, AORS_1, AORS_2, CDL_2, CDL_3, CDL_4, CDL_5, COI_1, COI_2, COI_3, LOI_1, LOI_10, LOI_11, LOI_12, LOI_13, LOI_14, LOI_2, LOI_4, LOI_5, LOI_6, LOI_8, LOI_9, ODL_13, ODL_14, ODL_17, ODL_18, ODL_19, ODL_2, ODL_20, ODL_7, ODL_8, ODL_9, ROR_1, ROR_10, ROR_11, ROR_13, ROR_15, ROR_16, ROR_18, ROR_19, ROR_2, ROR_20, ROR_21, ROR_4, ROR_8, ROR_9, SDL_1, SDL_10, SDL_11, SDL_2, SDL_4, SDL_5, SDL_6, SDL_9, VDL_10, VDL_2, VDL_5, VDL_6, VDL_9}
+mutant report: {VDL_10=test1, COI_3=test1, COI_2=test1, LOI_5=test1, LOI_6=test1, LOI_8=test1, LOI_1=test1, LOI_2=test1, LOI_4=test1, COI_1=test1, CDL_1=, CDL_2=test1, CDL_3=test1, LOI_9=test1, SDL_11=test1, AOIS_38=, VDL_9=test1, AOIS_37=, AOIS_36=test1, AOIS_35=test1, AOIS_34=test1, SDL_10=test1, AOIS_33=test1, AOIS_32=test1, VDL_3=, AOIS_31=test1, VDL_2=test1, AOIS_30=test1, VDL_6=test1, VDL_5=test1, AOIS_29=test1, AOIS_28=test1, AOIS_27=test1, AOIS_26=test1, ROR_21=test1, AOIS_25=test1, ROR_20=test1, AOIS_24=test1, AOIS_23=test1, AOIS_22=test1, AOIU_3=test1, ODL_9=test1, AOIS_21=test1, AOIU_4=test1, ODL_8=test1, AOIS_20=test1, AOIU_1=test1, AOIU_2=test1, ODL_1=, AOIU_9=test1, AORB_9=test1, ODL_2=test1, AOIU_7=test1, AOIU_8=test1, AOIU_5=test1, ODL_7=test1, AOIU_6=test1, ODL_6=, AORB_3=test1, AORB_4=, AORB_1=, AORB_2=, AORB_7=test1, AORB_8=test1, AORB_5=test1, AORB_6=test1, AOIS_19=test1, ROR_2=test1, AOIS_18=test1, ROR_13=test1, ROR_3=, AOIS_17=test1, ROR_16=test1, ROR_4=test1, ROR_15=test1, ROR_5=, ROR_10=test1, ROR_12=, ROR_8=test1, AOIS_12=test1, ROR_11=test1, ROR_9=test1, AOIS_11=test1, AORS_2=test1, AOIS_10=test1, AORS_1=test1, ROR_1=test1, ROR_18=test1, ROR_17=, ROR_19=test1, SDL_5=test1, SDL_4=test1, SDL_7=, SDL_6=test1, AORB_23=test1, SDL_9=test1, AORB_24=test1, AORB_21=test1, AORB_22=test1, SDL_1=test1, SDL_2=test1, AORB_16=test1, AORB_17=test1, AORB_14=test1, AORB_15=test1, AORB_12=test1, AORB_13=test1, AORB_10=test1, AORB_11=test1, AORB_18=test1, AORB_19=test1, CDL_4=test1, CDL_5=test1, ODL_20=test1, AORB_20=test1, ODL_19=test1, AOIS_3=test1, AOIS_4=test1, AOIS_1=test1, AOIS_2=test1, LOI_14=test1, AOIS_9=test1, LOI_10=test1, LOI_11=test1, LOI_12=test1, LOI_13=test1, ODL_14=test1, ODL_13=test1, ODL_18=test1, ODL_17=test1}
